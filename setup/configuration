@@ -6,29 +6,29 @@
 # These settings must be changed to work in your environment
 # GCP Projects - All three projects may be the same project.
 # The project where your Jenknis Agent will run
-CLOUDBEES_PROJECT_ID=<GCP Project running CloudBees Core or Jenkins>
+CLOUDBEES_PROJECT_ID="cloudbees-public"
 # The GCP Project where you will deploy the Petclinic application
-DEPLOYER_PROJECT_ID=<GCP Project where you will deploy Petclinic>
+DEPLOYER_PROJECT_ID="cje-marketplace-dev"
 # The GCP Project where you will store your Binary Authorization attestations and policies
-ATTESTOR_PROJECT_ID=<GCP Project where you will store attestations>
+ATTESTOR_PROJECT_ID="cloudbees-public"
 
 # GKE settings
 # The GKE cluster where your Jenkins Agent will run
-CLOUDBEES_CLUSTER=<GKE Cluster running CloudBees Core or Jenkins>
+CLOUDBEES_CLUSTER="cloudbees-core"
 # The GKE cluster namespace where your Jenkins Agent will run
-CLOUDBEES_NAMESPACE=<Namespace on Cluster running CloudBees Core or Jenkins>
+CLOUDBEES_NAMESPACE="cloudbees-core"
 # The GCP Zone where GKE cluster for CloudBees Jenkins Agents run
-CLOUDBEES_CLUSTER_ZONE=<GCP zone running CloudBees Core or Jenkins>
+CLOUDBEES_CLUSTER_ZONE="us-east1-b"
 
 # The GKE Cluster where you will deploy the Petclinic application for development
-DEPLOYER_DEV_CLUSTER_NAME=<GKE Cluster for Dev work on Petclinic>
+DEPLOYER_DEV_CLUSTER_NAME="dev"
 # The GCP zone for the GKE cluster where you will deploy the Petclinic application for development
-DEPLOYER_DEV_CLUSTER_ZONE=<GCP Zone for Dev Cluster>
+DEPLOYER_DEV_CLUSTER_ZONE="us-central1-a"
 
 # The GKE Cluster where you will deploy the Petclinic application for production
-DEPLOYER_PROD_CLUSTER_NAME=<GKE Prod Cluster>
+DEPLOYER_PROD_CLUSTER_NAME="prod"
 # The GCP zone for the GKE cluster where you will deploy the Petclinic application for production
-DEPLOYER_PROD_CLUSTER_ZONE=<GCP Prod Zone>
+DEPLOYER_PROD_CLUSTER_ZONE="us-central1-a"
 
 
 ###################
